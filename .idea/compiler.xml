@@ -8,6 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="task-1,2" />
         <module name="task-3" />
+        <module name="task-5" />
+      </profile>
+      <profile name="Annotation profile for spring-lessons" enabled="true">
+        <sourceOutputDir name="../task-3/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../task-3/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="task-4" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +22,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="task-1,2" options="-Xlint:all" />
       <module name="task-3" options="-parameters" />
+      <module name="task-4" options="-parameters" />
+      <module name="task-5" options="-parameters" />
     </option>
   </component>
 </project>
