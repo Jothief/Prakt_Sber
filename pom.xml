@@ -12,6 +12,7 @@
         <module>task-1,2</module>
         <module>task-4</module>
         <module>task-5</module>
+        <module>task-6</module>
     </modules>
     <properties>
         <java-version>1.8</java-version>
